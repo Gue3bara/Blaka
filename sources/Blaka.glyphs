@@ -20,7 +20,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2019-04-24 18:31:30 +0000";
+date = "2019-04-24 19:16:18 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 familyName = Blaka;
@@ -54,8 +54,13 @@ name = medi;
 },
 {
 automatic = 1;
-code = "sub alef-ar by alef-ar.fina;\012sub alefHamzaabove-ar by alefHamzaabove-ar.fina;\012sub alefHamzabelow-ar by alefHamzabelow-ar.fina;\012sub behDotless-ar by behDotless-ar.fina;\012sub beh-ar by beh-ar.fina;\012sub peh-ar by peh-ar.fina;\012sub teh-ar by teh-ar.fina;\012sub theh-ar by theh-ar.fina;\012sub jeem-ar by jeem-ar.fina;\012sub tcheh-ar by tcheh-ar.fina;\012sub hah-ar by hah-ar.fina;\012sub khah-ar by khah-ar.fina;\012sub dal-ar by dal-ar.fina;\012sub thal-ar by thal-ar.fina;\012sub reh-ar by reh-ar.fina;\012sub zain-ar by zain-ar.fina;\012sub jeh-ar by jeh-ar.fina;\012sub seen-ar by seen-ar.fina;\012sub sheen-ar by sheen-ar.fina;\012sub sad-ar by sad-ar.fina;\012sub dad-ar by dad-ar.fina;\012sub tah-ar by tah-ar.fina;\012sub zah-ar by zah-ar.fina;\012sub ain-ar by ain-ar.fina;\012sub ghain-ar by ghain-ar.fina;\012sub feh-ar by feh-ar.fina;\012sub veh-ar by veh-ar.fina;\012sub fehDotless-ar by fehDotless-ar.fina;\012sub qafDotless-ar by qafDotless-ar.fina;\012sub qaf-ar by qaf-ar.fina;\012sub kafDotless-ar by kafDotless-ar.fina;\012sub kaf-ar by kaf-ar.fina;\012sub lam-ar by lam-ar.fina;\012sub noon-ar by noon-ar.fina;\012sub noonghunna-ar by noonghunna-ar.fina;\012sub waw-ar by waw-ar.fina;\012sub wawHamzaabove-ar by wawHamzaabove-ar.fina;\012sub alefMaksura-ar by alefMaksura-ar.fina;\012sub yeh-ar by yeh-ar.fina;\012sub yehHamzaabove-ar by yehHamzaabove-ar.fina;\012";
+code = "sub alef-ar by alef-ar.fina;\012sub alefHamzaabove-ar by alefHamzaabove-ar.fina;\012sub alefHamzabelow-ar by alefHamzabelow-ar.fina;\012sub alefMadda-ar by alefMadda-ar.fina;\012sub alefWasla-ar by alefWasla-ar.fina;\012sub behDotless-ar by behDotless-ar.fina;\012sub beh-ar by beh-ar.fina;\012sub peh-ar by peh-ar.fina;\012sub teh-ar by teh-ar.fina;\012sub theh-ar by theh-ar.fina;\012sub jeem-ar by jeem-ar.fina;\012sub tcheh-ar by tcheh-ar.fina;\012sub hah-ar by hah-ar.fina;\012sub khah-ar by khah-ar.fina;\012sub dal-ar by dal-ar.fina;\012sub thal-ar by thal-ar.fina;\012sub reh-ar by reh-ar.fina;\012sub zain-ar by zain-ar.fina;\012sub jeh-ar by jeh-ar.fina;\012sub seen-ar by seen-ar.fina;\012sub sheen-ar by sheen-ar.fina;\012sub sad-ar by sad-ar.fina;\012sub dad-ar by dad-ar.fina;\012sub tah-ar by tah-ar.fina;\012sub zah-ar by zah-ar.fina;\012sub ain-ar by ain-ar.fina;\012sub ghain-ar by ghain-ar.fina;\012sub feh-ar by feh-ar.fina;\012sub veh-ar by veh-ar.fina;\012sub fehDotless-ar by fehDotless-ar.fina;\012sub qafDotless-ar by qafDotless-ar.fina;\012sub qaf-ar by qaf-ar.fina;\012sub kafDotless-ar by kafDotless-ar.fina;\012sub kaf-ar by kaf-ar.fina;\012sub lam-ar by lam-ar.fina;\012sub noon-ar by noon-ar.fina;\012sub noonghunna-ar by noonghunna-ar.fina;\012sub waw-ar by waw-ar.fina;\012sub wawHamzaabove-ar by wawHamzaabove-ar.fina;\012sub alefMaksura-ar by alefMaksura-ar.fina;\012sub yeh-ar by yeh-ar.fina;\012sub yehHamzaabove-ar by yehHamzaabove-ar.fina;\012sub lam_alef-ar by lam_alef-ar.fina;\012sub lam_alefHamzaabove-ar by lam_alefHamzaabove-ar.fina;\012sub lam_alefHamzabelow-ar by lam_alefHamzabelow-ar.fina;\012sub lam_alefMadda-ar by lam_alefMadda-ar.fina;\012sub lam_alefWasla-ar by lam_alefWasla-ar.fina;\012";
 name = fina;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks RightToLeft;\012	sub lam-ar.init alef-ar.fina by lam_alef-ar;\012	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;\012	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;\012	sub lam-ar.medi alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;\012	sub lam-ar.init alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;\012	sub lam-ar.medi alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;\012	sub lam-ar.init alefMadda-ar.fina by lam_alefMadda-ar;\012	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;\012	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;\012	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;\012";
+name = rlig;
 }
 );
 fontMaster = (
@@ -6428,6 +6433,84 @@ width = 187;
 unicode = FE88;
 },
 {
+glyphname = "alefMadda-ar";
+lastChange = "2019-04-24 19:00:43 +0000";
+layers = (
+{
+components = (
+{
+name = "alef-ar.short";
+},
+{
+name = "madda-ar";
+transform = "{1, 0, 0, 1, -40, 99}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 224;
+}
+);
+unicode = 0622;
+},
+{
+glyphname = "alefMadda-ar.fina";
+lastChange = "2019-04-24 18:57:25 +0000";
+layers = (
+{
+components = (
+{
+name = "alef-ar.fina.short";
+},
+{
+name = "madda-ar";
+transform = "{1, 0, 0, 1, -4, 98}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 187;
+}
+);
+unicode = FE82;
+},
+{
+glyphname = "alefWasla-ar";
+layers = (
+{
+components = (
+{
+name = "alef-ar.short";
+},
+{
+name = "wasla-ar";
+transform = "{1, 0, 0, 1, -31, 84}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 224;
+}
+);
+unicode = 0671;
+},
+{
+glyphname = "alefWasla-ar.fina";
+layers = (
+{
+components = (
+{
+name = "alef-ar.fina.short";
+},
+{
+name = "wasla-ar";
+transform = "{1, 0, 0, 1, 5, 83}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 187;
+}
+);
+unicode = FB51;
+},
+{
 glyphname = "behDotless-ar";
 lastChange = "2019-04-23 21:53:24 +0000";
 layers = (
@@ -11708,6 +11791,270 @@ width = 224;
 unicode = FE8B;
 },
 {
+glyphname = "lam_alef-ar";
+lastChange = "2019-04-24 19:03:26 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom_1;
+position = "{313, -50}";
+},
+{
+name = bottom_2;
+position = "{104, -50}";
+},
+{
+name = caret_1;
+position = "{207.5, 0}";
+},
+{
+name = top_1;
+position = "{295, 632}";
+},
+{
+name = top_2;
+position = "{104, 500}";
+}
+);
+components = (
+{
+name = "lam-ar.init";
+transform = "{1, 0, 0, 1, 187, 0}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+paths = (
+{
+closed = 1;
+nodes = (
+"187 86 LINE",
+"187 500 LINE",
+"36 459 LINE",
+"36 86 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-20 -15 LINE",
+"214 49 LINE",
+"175 195 LINE",
+"-59 131 LINE",
+"-2 194 LINE",
+"61 -38 LINE"
+);
+}
+);
+width = 415;
+}
+);
+leftMetricsKey = "alef-ar.fina";
+rightMetricsKey = "lam-ar.init";
+unicode = FEFB;
+},
+{
+glyphname = "lam_alef-ar.fina";
+lastChange = "2019-04-24 19:03:02 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "lam_alef-ar";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 384;
+}
+);
+leftMetricsKey = "alef-ar.fina";
+rightMetricsKey = "lam-ar.medi";
+unicode = FEFC;
+},
+{
+glyphname = "lam_alefHamzaabove-ar";
+lastChange = "2019-04-24 19:04:03 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+anchor = top_2;
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 17, 0}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 415;
+}
+);
+leftMetricsKey = "lam_alef-ar";
+rightMetricsKey = "lam_alef-ar";
+unicode = FEF7;
+},
+{
+glyphname = "lam_alefHamzaabove-ar.fina";
+lastChange = "2019-04-24 19:04:09 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+anchor = top_2;
+name = "hamzaabove-ar";
+transform = "{1, 0, 0, 1, 17, 0}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 384;
+}
+);
+leftMetricsKey = "lam_alef-ar.fina";
+rightMetricsKey = "lam_alef-ar.fina";
+unicode = FEF8;
+},
+{
+glyphname = "lam_alefHamzabelow-ar";
+lastChange = "2019-04-24 19:04:38 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+anchor = bottom_2;
+name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 17, -50}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 415;
+}
+);
+leftMetricsKey = "lam_alef-ar";
+rightMetricsKey = "lam_alef-ar";
+unicode = FEF9;
+},
+{
+glyphname = "lam_alefHamzabelow-ar.fina";
+lastChange = "2019-04-24 19:04:45 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+anchor = bottom_2;
+name = "hamzabelow-ar";
+transform = "{1, 0, 0, 1, 17, -50}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 384;
+}
+);
+leftMetricsKey = "lam_alef-ar.fina";
+rightMetricsKey = "lam_alef-ar.fina";
+unicode = FEFA;
+},
+{
+glyphname = "lam_alefMadda-ar";
+lastChange = "2019-04-24 19:05:07 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+anchor = top_2;
+name = "madda-ar";
+transform = "{1, 0, 0, 1, 5, 15}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 415;
+}
+);
+leftMetricsKey = "lam_alef-ar";
+rightMetricsKey = "lam_alef-ar";
+unicode = FEF5;
+},
+{
+glyphname = "lam_alefMadda-ar.fina";
+lastChange = "2019-04-24 19:05:13 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+anchor = top_2;
+name = "madda-ar";
+transform = "{1, 0, 0, 1, 5, 15}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 384;
+}
+);
+leftMetricsKey = "lam_alef-ar.fina";
+rightMetricsKey = "lam_alef-ar.fina";
+unicode = FEF6;
+},
+{
+glyphname = "lam_alefWasla-ar";
+lastChange = "2019-04-24 19:08:12 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar";
+},
+{
+anchor = top_2;
+name = "wasla-ar";
+transform = "{1, 0, 0, 1, 14, 0}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 415;
+}
+);
+leftMetricsKey = "alefWasla-ar.fina";
+rightMetricsKey = "lam-ar.init";
+},
+{
+glyphname = "lam_alefWasla-ar.fina";
+lastChange = "2019-04-24 19:08:27 +0000";
+layers = (
+{
+components = (
+{
+name = "lam_alef-ar.fina";
+},
+{
+anchor = top_2;
+name = "wasla-ar";
+transform = "{1, 0, 0, 1, 14, 0}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 384;
+}
+);
+leftMetricsKey = "alefWasla-ar.fina";
+rightMetricsKey = "lam-ar.init";
+},
+{
 glyphname = zero;
 lastChange = "2019-04-22 21:48:06 +0000";
 layers = (
@@ -13012,6 +13359,89 @@ width = 600;
 unicode = 002C;
 },
 {
+glyphname = question;
+lastChange = "2019-04-24 19:15:01 +0000";
+layers = (
+{
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+paths = (
+{
+closed = 1;
+nodes = (
+"415 467 LINE",
+"396 414 LINE",
+"333 646 LINE",
+"387 616 LINE",
+"-79 488 LINE",
+"6 547 LINE",
+"69 315 LINE",
+"-40 342 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"40 83 LINE",
+"406 183 LINE",
+"363 127 LINE",
+"363 360 LINE",
+"369 327 LINE",
+"40 232 LINE",
+"72 281 LINE",
+"132 46 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"363 440 LINE",
+"212 440 LINE",
+"212 262 LINE",
+"363 262 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"232 162 LINE",
+"81 244 LINE",
+"81 31 LINE",
+"232 72 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"257 -41 LINE",
+"238 31 LINE",
+"90 -9 LINE",
+"109 -82 LINE"
+);
+}
+);
+width = 399;
+}
+);
+unicode = 003F;
+},
+{
+glyphname = questiondown;
+lastChange = "2019-04-24 19:15:44 +0000";
+layers = (
+{
+components = (
+{
+name = question;
+transform = "{-1, 0, 0, -1, 399, 514}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+width = 399;
+}
+);
+unicode = 00BF;
+},
+{
 glyphname = hyphen;
 layers = (
 {
@@ -13479,6 +13909,67 @@ width = 180;
 );
 },
 {
+glyphname = "wasla-ar";
+lastChange = "2019-04-24 19:07:23 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{90, 500}";
+},
+{
+name = top;
+position = "{90, 690}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+paths = (
+{
+closed = 1;
+nodes = (
+"198 545 LINE",
+"187 522 LINE",
+"150 604 LINE",
+"176 596 LINE",
+"-46 539 LINE",
+"-4 572 LINE",
+"34 490 LINE",
+"-25 485 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"169 636 LINE",
+"190 620 LINE",
+"-9 676 LINE",
+"20 675 LINE",
+"-7 590 LINE",
+"-24 620 LINE",
+"170 567 LINE",
+"144 550 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-19 605 LINE",
+"-27 674 LINE",
+"43 519 LINE",
+"21 533 LINE",
+"103 567 LINE",
+"97 539 LINE",
+"26 693 LINE",
+"82 605 LINE"
+);
+}
+);
+width = 179;
+}
+);
+},
+{
 glyphname = "hamzaabove-ar";
 lastChange = "2019-04-24 00:01:07 +0000";
 layers = (
@@ -13587,6 +14078,68 @@ layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 width = 174;
 }
 );
+},
+{
+glyphname = "madda-ar";
+lastChange = "2019-04-24 18:57:25 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{99, 485}";
+},
+{
+name = top;
+position = "{99, 631}";
+}
+);
+layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+paths = (
+{
+closed = 1;
+nodes = (
+"254 578 LINE",
+"205 538 LINE",
+"157 614 LINE",
+"225 625 LINE",
+"13 538 LINE",
+"76 579 LINE",
+"125 503 LINE",
+"68 490 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"136 575 LINE",
+"169 559 LINE",
+"5 605 LINE",
+"30 614 LINE",
+"4 529 LINE",
+"-14 551 LINE",
+"149 506 LINE",
+"111 489 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"4 605 LINE",
+"37 640 LINE",
+"-6 497 LINE",
+"-14 523 LINE",
+"71 494 LINE",
+"42 457 LINE",
+"89 619 LINE",
+"113 575 LINE"
+);
+}
+);
+width = 197;
+}
+);
+unicode = 0653;
 }
 );
 manufacturer = "Kief Type Foundry";
