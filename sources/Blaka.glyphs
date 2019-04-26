@@ -2,7 +2,8 @@
 .appVersion = "1230";
 DisplayStrings = (
 "/meem-ar.init",
-"/heh-ar.medi"
+"/heh-ar.medi",
+"/beh-ar.medi"
 );
 copyright = "Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)";
 customParameters = (
@@ -7252,7 +7253,7 @@ unicode = FE90;
 },
 {
 glyphname = "beh-ar.medi";
-lastChange = "2019-04-25 13:40:24 +0000";
+lastChange = "2019-04-26 12:00:00 +0000";
 layers = (
 {
 components = (
@@ -12446,11 +12447,96 @@ unicode = FEEC;
 },
 {
 glyphname = "heh-ar.init";
-lastChange = "2019-04-26 11:49:38 +0000";
+lastChange = "2019-04-26 12:03:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{286, -50}";
+},
+{
+name = top;
+position = "{286, 500}";
+}
+);
 layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"-22 -21 LINE",
+"437 105 LINE",
+"398 251 LINE",
+"-48 129 LINE",
+"-38 191 LINE",
+"26 -41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"404 419 LINE",
+"253 377 LINE",
+"253 149 LINE",
+"404 149 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"195 248 LINE",
+"44 248 LINE",
+"44 153 LINE",
+"195 153 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"367 445 LINE",
+"324 294 LINE",
+"127 433 LINE",
+"242 534 LINE",
+"44 248 LINE",
+"168 163 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 327 LINE",
+"390 473 LINE",
+"214 425 LINE",
+"253 279 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 -10 LINE",
+"623 99 LINE",
+"607 62 LINE",
+"607 294 LINE",
+"622 255 LINE",
+"188 136 LINE",
+"243 191 LINE",
+"306 -41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"607 251 LINE",
+"409 537 LINE",
+"524 436 LINE",
+"327 297 LINE",
+"284 448 LINE",
+"483 166 LINE"
+);
+}
+);
+width = 622;
 },
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
@@ -12639,6 +12725,87 @@ nodes = (
 }
 );
 width = 672;
+},
+{
+associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+layerId = "3A5D1789-C2DA-45FF-9770-1799336BE4E3";
+name = "Apr 26 19, 14:02";
+paths = (
+{
+closed = 1;
+nodes = (
+"-22 -21 LINE",
+"437 105 LINE",
+"398 251 LINE",
+"-48 129 LINE",
+"-38 191 LINE",
+"26 -41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"404 419 LINE",
+"253 377 LINE",
+"253 149 LINE",
+"404 149 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"195 248 LINE",
+"44 248 LINE",
+"44 153 LINE",
+"195 153 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"367 445 LINE",
+"324 294 LINE",
+"127 433 LINE",
+"242 534 LINE",
+"44 248 LINE",
+"168 163 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 327 LINE",
+"390 473 LINE",
+"214 425 LINE",
+"253 279 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"227 -10 LINE",
+"689 117 LINE",
+"658 62 LINE",
+"595 294 LINE",
+"650 263 LINE",
+"188 136 LINE",
+"243 191 LINE",
+"306 -41 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"607 251 LINE",
+"409 537 LINE",
+"524 436 LINE",
+"327 297 LINE",
+"284 448 LINE",
+"483 166 LINE"
+);
+}
+);
+width = 661;
 }
 );
 unicode = FEEB;
