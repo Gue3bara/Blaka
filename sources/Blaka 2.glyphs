@@ -1345,6 +1345,23 @@ width = 470;
 },
 {
 layerId = "8F9EA7C7-FA6E-4084-B685-AEA30DABFFDA";
+paths = (
+{
+closed = 1;
+nodes = (
+"455 76 LINE",
+"455 331 LINE",
+"250 388 LINE",
+"230 314 LINE",
+"230 490 LINE",
+"79 490 LINE",
+"79 199 LINE",
+"55 205 LINE",
+"15 59 LINE",
+"295 -17 LINE"
+);
+}
+);
 width = 600;
 },
 {
