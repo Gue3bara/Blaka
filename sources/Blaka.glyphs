@@ -48956,7 +48956,6 @@ instanceInterpolations = {
 "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8" = 1;
 };
 name = Black;
-weightClass = Black;
 },
 {
 interpolationWeight = 65;
@@ -48964,7 +48963,6 @@ instanceInterpolations = {
 "C1068CC4-E81B-47E6-9D26-F0E70787A68A" = 1;
 };
 name = Hollow;
-weightClass = Heavy;
 }
 );
 kerning = {
