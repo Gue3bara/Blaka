@@ -38478,14 +38478,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"166 482 LINE",
-"15 523 LINE",
-"15 41 LINE",
-"166 0 LINE"
+"181 482 LINE",
+"30 523 LINE",
+"30 41 LINE",
+"181 0 LINE"
 );
 }
 );
-width = 181;
+width = 211;
 },
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
