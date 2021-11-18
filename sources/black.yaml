@@ -1,0 +1,8 @@
+sources:
+  - temp/BlakaBlack-Regular.glyphs
+outputDir: "../fonts/black"
+buildStatic: true
+buildVariable: false
+buildTTF: true
+buildOTF: false
+buildWebfont: false

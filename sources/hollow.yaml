@@ -1,0 +1,8 @@
+sources:
+  - temp/BlakaHollow-Regular.glyphs
+outputDir: "../fonts/hollow"
+buildStatic: true
+buildVariable: false
+buildTTF: true
+buildOTF: false
+buildWebfont: false
