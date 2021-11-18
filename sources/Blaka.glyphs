@@ -1,5 +1,5 @@
 {
-.appVersion = "1260";
+.appVersion = "1352";
 classes = (
 {
 automatic = 1;
@@ -12786,14 +12786,43 @@ unicode = 0064;
 glyphname = eth;
 layers = (
 {
+components = (
+{
+name = dcroat;
+}
+);
 layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 width = 410;
 },
 {
-layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
-width = 600;
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"332 735 LINE",
+"396 655 LINE",
+"-22 571 LINE",
+"0 651 LINE",
+"48 416 LINE",
+"-4 464 LINE",
+"407 547 LINE",
+"381 499 LINE"
+);
 }
 );
+};
+components = (
+{
+name = dcroat;
+}
+);
+layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
+width = 410;
+}
+);
+leftMetricsKey = d;
+rightMetricsKey = d;
 unicode = 00F0;
 },
 {
@@ -42019,7 +42048,7 @@ width = 600;
 },
 {
 layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
-width = 600;
+width = 150;
 }
 );
 unicode = 0020;
@@ -42033,7 +42062,7 @@ width = 150;
 },
 {
 layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
-width = 600;
+width = 150;
 }
 );
 unicode = 00A0;
@@ -42197,7 +42226,68 @@ nodes = (
 width = 475;
 },
 {
+components = (
+{
+name = o;
+transform = "{0.83333, 0, 0, 0.83333, 76, 143}";
+}
+);
 layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
+paths = (
+{
+closed = 1;
+nodes = (
+"254 356 LINE",
+"474 532 LINE",
+"477 498 LINE",
+"405 588 LINE",
+"420 581 LINE",
+"215 418 LINE",
+"326 529 LINE",
+"390 445 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-7 61 LINE",
+"213 237 LINE",
+"160 178 LINE",
+"88 267 LINE",
+"160 286 LINE",
+"-45 123 LINE",
+"4 186 LINE",
+"68 102 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"190 493 LINE",
+"260 417 LINE",
+"55 581 LINE",
+"70 587 LINE",
+"-2 498 LINE",
+"1 531 LINE",
+"221 356 LINE",
+"126 408 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"471 186 LINE",
+"520 123 LINE",
+"315 286 LINE",
+"379 258 LINE",
+"324 240 LINE",
+"284 189 LINE",
+"262 237 LINE",
+"482 61 LINE",
+"407 102 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -43096,6 +43186,7 @@ width = 807;
 unicode = 0025;
 },
 {
+export = 0;
 glyphname = rightArrow;
 layers = (
 {
@@ -43116,6 +43207,7 @@ width = 600;
 unicode = 2192;
 },
 {
+export = 0;
 glyphname = leftArrow;
 layers = (
 {
@@ -43158,6 +43250,7 @@ width = 600;
 unicode = 2190;
 },
 {
+export = 0;
 glyphname = lozenge;
 layers = (
 {
