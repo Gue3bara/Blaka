@@ -309,6 +309,40 @@ fontMaster = (
 ascender = 900;
 capHeight = 666;
 custom = Black;
+customParameters = (
+{
+name = hheaAscender;
+value = 932;
+},
+{
+name = hheaDescender;
+value = -235;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 932;
+},
+{
+name = typoDescender;
+value = -235;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 933;
+},
+{
+name = winDescent;
+value = 289;
+}
+);
 descender = -400;
 id = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 userData = {
@@ -323,6 +357,40 @@ xHeight = 500;
 ascender = 900;
 capHeight = 666;
 custom = Hollow;
+customParameters = (
+{
+name = hheaAscender;
+value = 932;
+},
+{
+name = hheaDescender;
+value = -235;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 932;
+},
+{
+name = typoDescender;
+value = -235;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 933;
+},
+{
+name = winDescent;
+value = 289;
+}
+);
 descender = -400;
 id = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
 userData = {
