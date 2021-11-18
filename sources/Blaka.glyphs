@@ -1,5 +1,8 @@
 {
 .appVersion = "1352";
+DisplayStrings = (
+"./ellipsis"
+);
 classes = (
 {
 automatic = 1;
@@ -340,7 +343,7 @@ value = 970;
 },
 {
 name = winDescent;
-value = 289;
+value = 400;
 }
 );
 descender = -400;
@@ -388,7 +391,7 @@ value = 970;
 },
 {
 name = winDescent;
-value = 289;
+value = 400;
 }
 );
 descender = -400;
@@ -40131,6 +40134,7 @@ layers = (
 components = (
 {
 name = "fullstop-ar";
+transform = "{1, 0, 0, 1, 0, -3}";
 }
 );
 layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
@@ -40145,7 +40149,6 @@ width = 600;
 components = (
 {
 name = "fullstop-ar";
-transform = "{1, 0, 0, 1, 18, 0}";
 }
 );
 layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
@@ -40304,33 +40307,39 @@ layers = (
 components = (
 {
 name = period;
+transform = "{1, 0, 0, 1, 340, 0}";
 },
 {
 name = period;
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = period;
 }
 );
 layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
-width = 209;
+width = 549;
 },
 {
 components = (
 {
 name = period;
+transform = "{1, 0, 0, 1, 340, 0}";
 },
 {
 name = period;
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = period;
 }
 );
 layerId = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
-width = 209;
+width = 549;
 }
 );
+leftMetricsKey = period;
+rightMetricsKey = period;
 unicode = 2026;
 },
 {
