@@ -1,10 +1,9 @@
 {
-.appVersion = "1357";
+.appVersion = "1359";
 DisplayStrings = (
 "/minus",
 "¥",
 y,
-"/rightArrow",
 "£"
 );
 classes = (
@@ -46,7 +45,7 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2022-01-12 08:06:04 +0000";
+date = "2022-03-11 08:50:20 +0000";
 designer = "Mohamed Gaber";
 designerURL = "http://gaber.design/";
 familyName = Blaka;
@@ -315,7 +314,6 @@ fontMaster = (
 {
 ascender = 900;
 capHeight = 666;
-custom = Black;
 customParameters = (
 {
 name = hheaAscender;
@@ -402,10 +400,10 @@ value = 400;
 descender = -400;
 id = "C1068CC4-E81B-47E6-9D26-F0E70787A68A";
 userData = {
-GSOffsetHorizontal = 10;
+GSOffsetHorizontal = 22;
 GSOffsetMakeStroke = 1;
 GSOffsetPosition = 1;
-GSOffsetVertical = 10;
+GSOffsetVertical = 22;
 };
 weightValue = 65;
 xHeight = 500;
@@ -38531,7 +38529,6 @@ width = 444;
 unicode = 0039;
 },
 {
-color = 0;
 glyphname = onesuperior;
 layers = (
 {
@@ -38558,7 +38555,6 @@ rightMetricsKey = one;
 unicode = 00B9;
 },
 {
-color = 0;
 glyphname = twosuperior;
 layers = (
 {
@@ -38585,7 +38581,6 @@ rightMetricsKey = two;
 unicode = 00B2;
 },
 {
-color = 0;
 glyphname = threesuperior;
 layers = (
 {
@@ -38612,7 +38607,6 @@ rightMetricsKey = three;
 unicode = 00B3;
 },
 {
-color = 0;
 glyphname = foursuperior;
 layers = (
 {
@@ -38639,7 +38633,6 @@ rightMetricsKey = four;
 unicode = 2074;
 },
 {
-color = 0;
 glyphname = fraction;
 layers = (
 {
@@ -38675,7 +38668,6 @@ width = 427;
 unicode = 2044;
 },
 {
-color = 0;
 glyphname = onehalf;
 layers = (
 {
@@ -38720,7 +38712,6 @@ width = 806;
 unicode = 00BD;
 },
 {
-color = 0;
 glyphname = onequarter;
 layers = (
 {
@@ -38765,7 +38756,6 @@ width = 798;
 unicode = 00BC;
 },
 {
-color = 0;
 glyphname = threequarters;
 layers = (
 {
@@ -41214,7 +41204,6 @@ width = 219;
 unicode = 00B7;
 },
 {
-color = 0;
 glyphname = bullet;
 layers = (
 {
@@ -41913,14 +41902,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"380 394 LINE",
-"481 348 LINE",
-"0 393 LINE",
-"48 442 LINE",
-"26 203 LINE",
-"-2 262 LINE",
-"468 217 LINE",
-"358 154 LINE"
+"43 389 LINE",
+"31 259 LINE",
+"365 227 LINE",
+"377 358 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"320 282 LINE",
+"85 304 LINE",
+"88 335 LINE",
+"323 313 LINE"
 );
 }
 );
@@ -41930,7 +41924,6 @@ width = 408;
 unicode = 002D;
 },
 {
-color = 0;
 glyphname = softhyphen;
 layers = (
 {
@@ -41955,7 +41948,6 @@ width = 408;
 unicode = 00AD;
 },
 {
-color = 0;
 glyphname = endash;
 layers = (
 {
@@ -41983,14 +41975,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"468 394 LINE",
-"481 348 LINE",
-"0 393 LINE",
-"48 442 LINE",
-"26 203 LINE",
-"-2 262 LINE",
-"468 217 LINE",
-"446 154 LINE"
+"43 389 LINE",
+"31 259 LINE",
+"452 219 LINE",
+"464 350 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"407 274 LINE",
+"85 304 LINE",
+"88 335 LINE",
+"410 305 LINE"
 );
 }
 );
@@ -42000,7 +41997,6 @@ width = 495;
 unicode = 2013;
 },
 {
-color = 0;
 glyphname = emdash;
 layers = (
 {
@@ -42028,14 +42024,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"676 394 LINE",
-"731 325 LINE",
-"0 393 LINE",
-"48 442 LINE",
-"26 203 LINE",
-"-2 262 LINE",
-"682 197 LINE",
-"654 154 LINE"
+"43 389 LINE",
+"31 259 LINE",
+"658 199 LINE",
+"670 331 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"613 254 LINE",
+"85 304 LINE",
+"88 335 LINE",
+"616 286 LINE"
 );
 }
 );
@@ -42550,6 +42551,15 @@ nodes = (
 "59 145 LINE",
 "30 36 LINE",
 "159 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"84 67 LINE",
+"90 91 LINE",
+"135 78 LINE",
+"128 54 LINE"
 );
 }
 );
@@ -43080,7 +43090,6 @@ width = 503;
 unicode = 20AC;
 },
 {
-color = 0;
 glyphname = sterling;
 layers = (
 {
@@ -43295,7 +43304,6 @@ width = 528;
 unicode = 00A3;
 },
 {
-color = 0;
 glyphname = yen;
 layers = (
 {
@@ -43557,7 +43565,6 @@ width = 600;
 unicode = 00A5;
 },
 {
-color = 0;
 glyphname = divisionslash;
 layers = (
 {
@@ -44189,7 +44196,6 @@ width = 465;
 unicode = 00B1;
 },
 {
-color = 0;
 glyphname = asciitilde;
 layers = (
 {
@@ -44271,7 +44277,6 @@ width = 600;
 unicode = 007E;
 },
 {
-color = 0;
 glyphname = logicalnot;
 layers = (
 {
@@ -44330,7 +44335,6 @@ width = 600;
 unicode = 00AC;
 },
 {
-color = 0;
 glyphname = asciicircum;
 layers = (
 {
@@ -44386,7 +44390,6 @@ width = 516;
 unicode = 005E;
 },
 {
-color = 0;
 glyphname = micro;
 layers = (
 {
@@ -44453,7 +44456,6 @@ width = 807;
 unicode = 0025;
 },
 {
-export = 0;
 glyphname = rightArrow;
 layers = (
 {
@@ -44480,7 +44482,6 @@ width = 630;
 unicode = 2192;
 },
 {
-export = 0;
 glyphname = leftArrow;
 layers = (
 {
@@ -44523,9 +44524,10 @@ closed = 1;
 nodes = (
 "200 42 LINE",
 "320 98 LINE",
-"351 62 LINE",
-"183 251 LINE",
-"335 423 LINE",
+"218 191 LINE",
+"509 184 LINE",
+"509 314 LINE",
+"218 310 LINE",
 "318 403 LINE",
 "198 458 LINE",
 "15 251 LINE"
@@ -44534,14 +44536,17 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"509 323 LINE",
-"613 296 LINE",
-"130 289 LINE",
-"174 342 LINE",
-"173 102 LINE",
-"135 214 LINE",
-"607 201 LINE",
-"508 82 LINE"
+"242 110 LINE",
+"211 96 LINE",
+"74 251 LINE",
+"209 404 LINE",
+"240 390 LINE",
+"120 256 LINE",
+"119 266 LINE",
+"465 269 LINE",
+"465 229 LINE",
+"90 235 LINE",
+"113 248 LINE"
 );
 }
 );
@@ -44551,7 +44556,6 @@ width = 630;
 unicode = 2190;
 },
 {
-export = 0;
 glyphname = lozenge;
 layers = (
 {
@@ -45271,7 +45275,6 @@ width = 496;
 unicode = 0026;
 },
 {
-color = 0;
 glyphname = paragraph;
 layers = (
 {
@@ -48097,7 +48100,6 @@ width = 225;
 unicode = 0328;
 },
 {
-color = 0;
 glyphname = dieresis;
 layers = (
 {
@@ -48122,7 +48124,6 @@ width = 345;
 unicode = 00A8;
 },
 {
-color = 0;
 glyphname = grave;
 layers = (
 {
@@ -48147,7 +48148,6 @@ width = 220;
 unicode = 0060;
 },
 {
-color = 0;
 glyphname = acute;
 layers = (
 {
@@ -48172,7 +48172,6 @@ width = 220;
 unicode = 00B4;
 },
 {
-color = 0;
 glyphname = circumflex;
 layers = (
 {
@@ -48197,7 +48196,6 @@ width = 322;
 unicode = 02C6;
 },
 {
-color = 0;
 glyphname = ring;
 layers = (
 {
@@ -48222,7 +48220,6 @@ width = 260;
 unicode = 02DA;
 },
 {
-color = 0;
 glyphname = tilde;
 layers = (
 {
@@ -48247,7 +48244,6 @@ width = 345;
 unicode = 02DC;
 },
 {
-color = 0;
 glyphname = macron;
 layers = (
 {
@@ -48272,7 +48268,6 @@ width = 323;
 unicode = 00AF;
 },
 {
-color = 0;
 glyphname = cedilla;
 layers = (
 {
@@ -50523,7 +50518,7 @@ interpolationWeight = 151;
 instanceInterpolations = {
 "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8" = 1;
 };
-name = Black;
+name = Regular;
 },
 {
 interpolationWeight = 65;
@@ -50576,5 +50571,5 @@ tH = "151";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
