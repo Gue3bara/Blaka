@@ -1,5 +1,5 @@
 {
-.appVersion = "3110";
+.appVersion = "3114";
 .formatVersion = 3;
 axes = (
 {
@@ -33,8 +33,8 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2022-02-27 20:05:34 +0000";
-familyName = "Blaka Walnut";
+date = "2022-03-11 09:13:28 +0000";
+familyName = "Blaka-Ink";
 featurePrefixes = (
 {
 automatic = 1;
@@ -44,13 +44,13 @@ languagesystem arab dflt;
 languagesystem arab URD;
 
 languagesystem latn dflt;
-languagesystem latn ROM;
-languagesystem latn MOL;
+languagesystem latn AZE;
+languagesystem latn CRT;
 languagesystem latn KAZ;
 languagesystem latn TAT;
 languagesystem latn TRK;
-languagesystem latn CRT;
-languagesystem latn AZE;
+languagesystem latn ROM;
+languagesystem latn MOL;
 ";
 name = Languagesystems;
 }
@@ -62,6 +62,9 @@ code = "feature locl;
 feature init;
 feature medi;
 feature fina;
+feature sups;
+feature frac;
+feature ordn;
 ";
 tag = aalt;
 },
@@ -87,42 +90,82 @@ lookup ccmp_arab_1 {
 	sub kasra-ar shadda-ar by shaddaKasra-ar;
 } ccmp_arab_1;
 
+lookup ccmp_latn_1 {
+	sub fi by f i;
+	sub fl by f l;
+} ccmp_latn_1;
+
 script arab;
 lookup ccmp_arab_1;
+
+script latn;
+lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language KAZ;
-sub i by idotaccent;
-language TAT;
-sub i by idotaccent;
-language TRK;
-sub i by idotaccent;
-language CRT;
-sub i by idotaccent;
-language AZE;
-sub i by idotaccent;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
 
-script arab;
-language URD;
-sub four-persian by four-persian.urdu;
-sub six-persian by six-ar;
-sub seven-persian by seven-persian.urdu;
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_arab_0 {
+	script arab;
+	language URD;
+	sub four-persian by four-persian.urdu;
+	sub six-persian by six-ar;
+	sub seven-persian by seven-persian.urdu;
+} locl_arab_0;
 ";
 tag = locl;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
 },
 {
 automatic = 1;
@@ -271,7 +314,9 @@ tag = fina;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks RightToLeft;
+code = "lookup rlig_arab_0 {
+	lookupflag IgnoreMarks;
+	script arab;
 	sub lam-ar.init alef-ar.fina by lam_alef-ar;
 	sub lam-ar.medi alef-ar.fina by lam_alef-ar.fina;
 	sub lam-ar.init alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
@@ -282,12 +327,14 @@ code = "lookupflag IgnoreMarks RightToLeft;
 	sub lam-ar.medi alefMadda-ar.fina by lam_alefMadda-ar.fina;
 	sub lam-ar.init alefWasla-ar.fina by lam_alefWasla-ar;
 	sub lam-ar.medi alefWasla-ar.fina by lam_alefWasla-ar.fina;
+} rlig_arab_0;
 ";
 tag = rlig;
 },
 {
 automatic = 1;
-code = "sub f f i by f_f_i;
+code = "lookupflag IgnoreMarks;
+sub f f i by f_f_i;
 sub f f l by f_f_l;
 sub f f by f_f;
 sub f i by fi;
@@ -354,7 +401,7 @@ pos = -400;
 {
 }
 );
-name = Black;
+name = Regular;
 userData = {
 GSOffsetHorizontal = 10;
 GSOffsetMakeStroke = 1;
@@ -5067,7 +5114,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (-53,0);
+pos = (-52,0);
 ref = commaaccentcomb;
 }
 );
@@ -5085,7 +5132,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (-53,0);
+pos = (-52,0);
 ref = commaaccentcomb;
 }
 );
@@ -5347,7 +5394,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (-74,0);
+pos = (-73,0);
 ref = commaaccentcomb;
 }
 );
@@ -5365,7 +5412,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (-74,0);
+pos = (-73,0);
 ref = commaaccentcomb;
 }
 );
@@ -6155,7 +6202,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (-43,0);
+pos = (-42,0);
 ref = commaaccentcomb;
 }
 );
@@ -6173,7 +6220,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (-43,0);
+pos = (-42,0);
 ref = commaaccentcomb;
 }
 );
@@ -8235,7 +8282,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (-46,0);
+pos = (-45,0);
 ref = commaaccentcomb;
 }
 );
@@ -8253,7 +8300,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (-46,0);
+pos = (-45,0);
 ref = commaaccentcomb;
 }
 );
@@ -8703,7 +8750,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (-38,0);
+pos = (-37,0);
 ref = commaaccentcomb;
 }
 );
@@ -8721,7 +8768,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (-38,0);
+pos = (-37,0);
 ref = commaaccentcomb;
 }
 );
@@ -9103,7 +9150,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (-129,28);
+pos = (-128,28);
 ref = commaaccentcomb;
 }
 );
@@ -9121,7 +9168,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (-129,28);
+pos = (-128,28);
 ref = commaaccentcomb;
 }
 );
@@ -17023,7 +17070,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (-80,0);
+pos = (-79,0);
 ref = commaaccentcomb;
 }
 );
@@ -17041,7 +17088,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (-80,0);
+pos = (-79,0);
 ref = commaaccentcomb;
 }
 );
@@ -17268,7 +17315,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (-170,0);
+pos = (-169,0);
 ref = commaaccentcomb;
 }
 );
@@ -17286,7 +17333,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (-170,0);
+pos = (-169,0);
 ref = commaaccentcomb;
 }
 );
@@ -18150,7 +18197,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (-58,0);
+pos = (-57,0);
 ref = commaaccentcomb;
 }
 );
@@ -18168,7 +18215,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (-58,0);
+pos = (-57,0);
 ref = commaaccentcomb;
 }
 );
@@ -20421,7 +20468,7 @@ shapes = (
 ref = r;
 },
 {
-pos = (-117,0);
+pos = (-116,0);
 ref = commaaccentcomb;
 }
 );
@@ -20439,7 +20486,7 @@ shapes = (
 ref = r;
 },
 {
-pos = (-117,0);
+pos = (-116,0);
 ref = commaaccentcomb;
 }
 );
@@ -21094,7 +21141,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (-91,0);
+pos = (-90,0);
 ref = commaaccentcomb;
 }
 );
@@ -21112,7 +21159,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (-91,0);
+pos = (-90,0);
 ref = commaaccentcomb;
 }
 );
@@ -21768,7 +21815,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (-150,0);
+pos = (-149,0);
 ref = commaaccentcomb;
 }
 );
@@ -21786,7 +21833,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (-150,0);
+pos = (-149,0);
 ref = commaaccentcomb;
 }
 );
@@ -24741,7 +24788,6 @@ width = 499;
 unicode = 64258;
 },
 {
-color = 0;
 glyphname = ordfeminine;
 layers = (
 {
@@ -24771,7 +24817,6 @@ width = 447;
 unicode = 170;
 },
 {
-color = 0;
 glyphname = ordmasculine;
 layers = (
 {
@@ -47225,7 +47270,6 @@ width = 444;
 unicode = 57;
 },
 {
-color = 0;
 glyphname = fraction;
 layers = (
 {
@@ -47292,7 +47336,6 @@ width = 530;
 unicode = 8260;
 },
 {
-color = 0;
 glyphname = onehalf;
 layers = (
 {
@@ -47346,7 +47389,6 @@ width = 886;
 unicode = 189;
 },
 {
-color = 0;
 glyphname = onequarter;
 layers = (
 {
@@ -47400,7 +47442,6 @@ width = 908;
 unicode = 188;
 },
 {
-color = 0;
 glyphname = threequarters;
 layers = (
 {
@@ -47454,7 +47495,6 @@ width = 1001;
 unicode = 190;
 },
 {
-color = 0;
 glyphname = onesuperior;
 layers = (
 {
@@ -47486,7 +47526,6 @@ metricRight = one;
 unicode = 185;
 },
 {
-color = 0;
 glyphname = twosuperior;
 layers = (
 {
@@ -47518,7 +47557,6 @@ metricRight = two;
 unicode = 178;
 },
 {
-color = 0;
 glyphname = threesuperior;
 layers = (
 {
@@ -47550,7 +47588,6 @@ metricRight = three;
 unicode = 179;
 },
 {
-color = 0;
 glyphname = foursuperior;
 layers = (
 {
@@ -48502,11 +48539,24 @@ width = 219;
 unicode = 183;
 },
 {
-color = 0;
 glyphname = bullet;
 layers = (
 {
 layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+shapes = (
+{
+ref = period;
+}
+);
+width = 209;
+},
+{
+associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
+attr = {
+color = 1;
+};
+layerId = "4133DF0A-88F0-4454-A1EF-92D95438A6AC";
+name = "11 Mar 22, 11:12";
 shapes = (
 {
 ref = period;
@@ -48978,7 +49028,6 @@ width = 408;
 unicode = 45;
 },
 {
-color = 0;
 glyphname = softhyphen;
 layers = (
 {
@@ -49008,7 +49057,6 @@ width = 408;
 unicode = 173;
 },
 {
-color = 0;
 glyphname = endash;
 layers = (
 {
@@ -49074,7 +49122,6 @@ width = 495;
 unicode = 8211;
 },
 {
-color = 0;
 glyphname = emdash;
 layers = (
 {
@@ -50894,7 +50941,6 @@ width = 496;
 unicode = 38;
 },
 {
-color = 0;
 glyphname = paragraph;
 layers = (
 {
@@ -53374,7 +53420,6 @@ width = 503;
 unicode = 8364;
 },
 {
-color = 0;
 glyphname = sterling;
 layers = (
 {
@@ -53728,7 +53773,6 @@ width = 600;
 unicode = 163;
 },
 {
-color = 0;
 glyphname = yen;
 layers = (
 {
@@ -54078,7 +54122,6 @@ width = 600;
 unicode = 165;
 },
 {
-color = 0;
 glyphname = divisionslash;
 layers = (
 {
@@ -54878,7 +54921,6 @@ width = 465;
 unicode = 177;
 },
 {
-color = 0;
 glyphname = asciitilde;
 layers = (
 {
@@ -55024,7 +55066,6 @@ width = 600;
 unicode = 126;
 },
 {
-color = 0;
 glyphname = logicalnot;
 layers = (
 {
@@ -55116,7 +55157,6 @@ width = 600;
 unicode = 172;
 },
 {
-color = 0;
 glyphname = asciicircum;
 layers = (
 {
@@ -55183,7 +55223,6 @@ width = 516;
 unicode = 94;
 },
 {
-color = 0;
 glyphname = micro;
 layers = (
 {
@@ -60156,7 +60195,6 @@ width = 225;
 unicode = 808;
 },
 {
-color = 0;
 glyphname = dieresis;
 layers = (
 {
@@ -60186,7 +60224,6 @@ width = 345;
 unicode = 168;
 },
 {
-color = 0;
 glyphname = grave;
 layers = (
 {
@@ -60216,7 +60253,6 @@ width = 220;
 unicode = 96;
 },
 {
-color = 0;
 glyphname = acute;
 layers = (
 {
@@ -60246,7 +60282,6 @@ width = 220;
 unicode = 180;
 },
 {
-color = 0;
 glyphname = circumflex;
 layers = (
 {
@@ -60276,7 +60311,6 @@ width = 322;
 unicode = 710;
 },
 {
-color = 0;
 glyphname = ring;
 layers = (
 {
@@ -60306,7 +60340,6 @@ width = 260;
 unicode = 730;
 },
 {
-color = 0;
 glyphname = tilde;
 layers = (
 {
@@ -60336,7 +60369,6 @@ width = 345;
 unicode = 732;
 },
 {
-color = 0;
 glyphname = macron;
 layers = (
 {
@@ -60366,7 +60398,6 @@ width = 323;
 unicode = 175;
 },
 {
-color = 0;
 glyphname = cedilla;
 layers = (
 {
@@ -60404,7 +60435,7 @@ axesValues = (
 instanceInterpolations = {
 "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8" = 1;
 };
-name = Black;
+name = Regular;
 }
 );
 kerningLTR = {
@@ -60514,5 +60545,5 @@ tH = "151";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
