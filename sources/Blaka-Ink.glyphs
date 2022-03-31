@@ -60432,6 +60432,12 @@ instances = (
 axesValues = (
 151
 );
+customParameters = (
+{
+name = "Color Layers to SVG";
+value = 1;
+}
+);
 instanceInterpolations = {
 "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8" = 1;
 };
