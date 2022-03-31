@@ -34,7 +34,7 @@ value = 1;
 }
 );
 date = "2022-03-11 09:13:28 +0000";
-familyName = "Blaka-Ink";
+familyName = "Blaka Ink";
 featurePrefixes = (
 {
 automatic = 1;
