@@ -1,6 +1,12 @@
 {
 .appVersion = "3108";
 .formatVersion = 3;
+DisplayStrings = (
+A,
+"̆",
+"́",
+"AÁ"
+);
 axes = (
 {
 name = Weight;
@@ -5132,7 +5138,7 @@ shapes = (
 ref = K;
 },
 {
-pos = (-52,0);
+pos = (-53,0);
 ref = commaaccentcomb;
 }
 );
@@ -5412,7 +5418,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (-73,0);
+pos = (-74,0);
 ref = commaaccentcomb;
 }
 );
@@ -6220,7 +6226,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (-42,0);
+pos = (-43,0);
 ref = commaaccentcomb;
 }
 );
@@ -8300,7 +8306,7 @@ shapes = (
 ref = R;
 },
 {
-pos = (-45,0);
+pos = (-46,0);
 ref = commaaccentcomb;
 }
 );
@@ -8768,7 +8774,7 @@ shapes = (
 ref = S;
 },
 {
-pos = (-37,0);
+pos = (-38,0);
 ref = commaaccentcomb;
 }
 );
@@ -9168,7 +9174,7 @@ shapes = (
 ref = T;
 },
 {
-pos = (-128,28);
+pos = (-129,28);
 ref = commaaccentcomb;
 }
 );
@@ -17088,7 +17094,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (-79,0);
+pos = (-80,0);
 ref = commaaccentcomb;
 }
 );
@@ -17333,7 +17339,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (-169,0);
+pos = (-170,0);
 ref = commaaccentcomb;
 }
 );
@@ -18215,7 +18221,7 @@ shapes = (
 ref = n;
 },
 {
-pos = (-57,0);
+pos = (-58,0);
 ref = commaaccentcomb;
 }
 );
@@ -20486,7 +20492,7 @@ shapes = (
 ref = r;
 },
 {
-pos = (-116,0);
+pos = (-117,0);
 ref = commaaccentcomb;
 }
 );
@@ -21159,7 +21165,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (-90,0);
+pos = (-91,0);
 ref = commaaccentcomb;
 }
 );
@@ -21833,7 +21839,7 @@ shapes = (
 ref = t;
 },
 {
-pos = (-149,0);
+pos = (-150,0);
 ref = commaaccentcomb;
 }
 );
@@ -58618,14 +58624,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-94,621,l),
-(361,746,l),
-(236,650,l),
 (173,882,l),
 (333,895,l),
 (-133,677,l),
 (-26,833,l),
-(37,601,l)
+(37,601,l),
+(-94,621,l),
+(361,746,l),
+(236,650,l)
 );
 }
 );
@@ -58668,14 +58674,14 @@ start = (-0.1187,0.021);
 };
 closed = 1;
 nodes = (
-(-94,621,l),
-(361,746,l),
-(236,650,l),
 (173,882,l),
 (333,895,l),
 (-133,677,l),
 (-26,833,l),
-(37,601,l)
+(37,601,l),
+(-94,621,l),
+(361,746,l),
+(236,650,l)
 );
 }
 );
