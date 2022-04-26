@@ -22,7 +22,7 @@ import os
 for instance in Glyphs.font.instances:
 	font = instance.interpolatedFont
 	font.familyName += " " + instance.name
-	font.familyName = font.familyName.replace("Regular", "")
+	font.familyName = font.familyName.replace("Regular", "").strip()
 	font.instances[0].name = "Regular"
 	font.save(os.path.join(os.path.dirname(Glyphs.font.filepath), "temp", font.familyName.replace(" ", "") + "-Regular.glyphs"))
 print("done")
