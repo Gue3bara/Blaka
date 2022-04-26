@@ -26,4 +26,5 @@ for instance in Glyphs.font.instances:
 	font.instances[0].name = "Regular"
 	font.save(os.path.join(os.path.dirname(Glyphs.font.filepath), "temp", font.familyName.replace(" ", "") + "-Regular.glyphs"))
 print("done")
+print(f"Note: As of this writing, Glyphs won't put the app build number into the sources when generating isntances like we just did above. This breaks generating the fonts with glyphsLib. Please do add the build number {int(Glyphs.buildNumber)} into the source files with a text editor at the top of the file under .appVersion = \"\"; to be .appVersion = \"{int(Glyphs.buildNumber)}\"; The author of Glyphs has been notified. Once you find that the build number does automatically appear in the sources, you may delete this print statement.")
 ```
