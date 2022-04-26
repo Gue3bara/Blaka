@@ -1,6 +1,6 @@
 sources:
-  - Blaka-Ink.glyphs
-outputDir: "../fonts/ink"
+  - temp/Blaka-Regular.glyphs
+outputDir: "../fonts/regular"
 buildStatic: true
 buildVariable: false
 buildTTF: true

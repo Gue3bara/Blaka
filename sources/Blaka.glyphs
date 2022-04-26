@@ -1,5 +1,5 @@
 {
-.appVersion = "1359";
+.appVersion = "3108";
 DisplayStrings = (
 "/minus",
 "¥",
@@ -16,21 +16,9 @@ name = wiggle;
 copyright = "Copyright 2019 The Blaka Project Authors (https://github.com/Gue3bara/Blaka)";
 customParameters = (
 {
-name = vendorID;
-value = "1KTF";
-},
-{
 name = fsType;
 value = (
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
 },
 {
 name = "Use Typo Metrics";
@@ -43,6 +31,27 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = vendorID;
+value = "1KTF";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2022-03-11 08:50:20 +0000";
@@ -10835,7 +10844,6 @@ width = 447;
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 backgroundImage = {
-crop = "{{0, 0}, {505, 139}}";
 imagePath = "../Dropbox/screenshots/Screenshot 2019-04-18 20.27.25.png";
 transform = "{3.70576, 0, 0, 3.70576, -64, -118}";
 };
@@ -10893,7 +10901,6 @@ width = 600;
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 backgroundImage = {
-crop = "{{0, 0}, {505, 139}}";
 imagePath = "../Dropbox/screenshots/Screenshot 2019-04-18 20.27.25.png";
 transform = "{3.70576, 0, 0, 3.70576, -64, -118}";
 };
@@ -12688,7 +12695,6 @@ width = 410;
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 backgroundImage = {
-crop = "{{0, 0}, {505, 139}}";
 imagePath = "../Dropbox/screenshots/Screenshot 2019-04-18 20.27.25.png";
 transform = "{7.391, 0, 0, 7.391, -414, -236}";
 };
@@ -14111,7 +14117,6 @@ width = 446;
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 backgroundImage = {
-crop = "{{0, 0}, {505, 139}}";
 imagePath = "../Dropbox/screenshots/Screenshot 2019-04-18 20.27.25.png";
 transform = "{7.391, 0, 0, 7.391, -883, -236}";
 };
@@ -18256,7 +18261,6 @@ width = 393;
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 backgroundImage = {
-crop = "{{0, 0}, {505, 139}}";
 imagePath = "../Dropbox/screenshots/Screenshot 2019-04-18 20.27.25.png";
 transform = "{7.391, 0, 0, 7.391, -1595, -236}";
 };
@@ -18306,7 +18310,6 @@ width = 600;
 {
 associatedMasterId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 backgroundImage = {
-crop = "{{0, 0}, {505, 139}}";
 imagePath = "../Dropbox/screenshots/Screenshot 2019-04-18 20.27.25.png";
 transform = "{7.391, 0, 0, 7.391, -1595, -236}";
 };
@@ -22692,9 +22695,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "alef-ar.fina.short";
 },
 {
+alignment = -1;
 name = "wasla-ar";
 transform = "{1.05, 0, 0, 1.05, 0, 58}";
 }
@@ -24193,9 +24198,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar";
 },
 {
+alignment = -1;
 name = "threedotsupcenter-ar";
 transform = "{0.98481, -0.17365, 0.17365, 0.98481, 316, -236}";
 }
@@ -24211,9 +24218,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar";
 },
 {
+alignment = -1;
 name = "threedotsupcenter-ar";
 transform = "{0.98481, -0.17365, 0.17365, 0.98481, 316, -236}";
 }
@@ -24230,9 +24239,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar.fina";
 },
 {
+alignment = -1;
 name = "threedotsupcenter-ar";
 transform = "{0.98481, -0.17365, 0.17365, 0.98481, 316, -236}";
 }
@@ -24248,9 +24259,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar.fina";
 },
 {
+alignment = -1;
 name = "threedotsupcenter-ar";
 transform = "{0.98481, -0.17365, 0.17365, 0.98481, 316, -236}";
 }
@@ -24267,9 +24280,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar.medi";
 },
 {
+alignment = -1;
 name = "threedotsupbelow-ar";
 transform = "{0.98769, -0.15643, 0.15643, 0.98769, 292, 30}";
 }
@@ -24285,9 +24300,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar.medi";
 },
 {
+alignment = -1;
 name = "threedotsupbelow-ar";
 transform = "{0.98769, -0.15643, 0.15643, 0.98769, 292, 30}";
 }
@@ -24304,9 +24321,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar.init";
 },
 {
+alignment = -1;
 name = "threedotsupbelow-ar";
 transform = "{0.98481, -0.17365, 0.17365, 0.98481, 295, 33}";
 }
@@ -24322,9 +24341,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "hah-ar.init";
 },
 {
+alignment = -1;
 name = "threedotsupbelow-ar";
 transform = "{0.98481, -0.17365, 0.17365, 0.98481, 295, 33}";
 }
@@ -38657,6 +38678,7 @@ width = 530;
 {
 components = (
 {
+alignment = -1;
 name = backslash;
 transform = "{-1, 0, 0, 1, 447, 0}";
 }
@@ -39624,6 +39646,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "two-ar";
 transform = "{-1, 0, 0, 1, 361, 0}";
 }
@@ -39639,6 +39662,7 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "two-ar";
 transform = "{-1, 0, 0, 1, 361, 0}";
 }
@@ -39907,6 +39931,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "zero-ar";
 }
 );
@@ -39916,6 +39941,7 @@ width = 245;
 {
 components = (
 {
+alignment = -1;
 name = "zero-ar";
 }
 );
@@ -39931,6 +39957,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "one-ar";
 }
 );
@@ -39940,6 +39967,7 @@ width = 181;
 {
 components = (
 {
+alignment = -1;
 name = "one-ar";
 }
 );
@@ -39955,6 +39983,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "two-ar";
 transform = "{1, 0, 0, 1, -2, 0}";
 }
@@ -39965,6 +39994,7 @@ width = 359;
 {
 components = (
 {
+alignment = -1;
 name = "two-ar";
 transform = "{1, 0, 0, 1, -2, 0}";
 }
