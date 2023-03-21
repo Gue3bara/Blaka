@@ -1,5 +1,5 @@
 {
-.appVersion = "3108";
+.appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
 A,
@@ -5135,9 +5135,11 @@ layerId = "6398BD25-F581-4E14-8B54-331E8D4344A3";
 name = "10 Jan 22, 18:50";
 shapes = (
 {
+alignment = -1;
 ref = K;
 },
 {
+alignment = -1;
 pos = (-53,0);
 ref = commaaccentcomb;
 }
@@ -5415,9 +5417,11 @@ layerId = "EE377F49-D772-44C7-ADE8-ACAD4D667039";
 name = "10 Jan 22, 18:50";
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (-74,0);
 ref = commaaccentcomb;
 }
@@ -6223,9 +6227,11 @@ layerId = "7B2BFE88-E795-4DE0-8F54-1FA1933C2168";
 name = "10 Jan 22, 18:54";
 shapes = (
 {
+alignment = -1;
 ref = N;
 },
 {
+alignment = -1;
 pos = (-43,0);
 ref = commaaccentcomb;
 }
@@ -8303,9 +8309,11 @@ layerId = "94747EDC-B2A5-4661-85AE-F1D0EE75FA96";
 name = "10 Jan 22, 19:00";
 shapes = (
 {
+alignment = -1;
 ref = R;
 },
 {
+alignment = -1;
 pos = (-46,0);
 ref = commaaccentcomb;
 }
@@ -8771,9 +8779,11 @@ layerId = "CE84450A-D6C8-43B4-9A17-715C7EAB7FC4";
 name = "10 Jan 22, 19:00";
 shapes = (
 {
+alignment = -1;
 ref = S;
 },
 {
+alignment = -1;
 pos = (-38,0);
 ref = commaaccentcomb;
 }
@@ -9171,9 +9181,11 @@ layerId = "02E3DDBA-069D-459C-A386-7D5954ECAD1A";
 name = "10 Jan 22, 19:01";
 shapes = (
 {
+alignment = -1;
 ref = T;
 },
 {
+alignment = -1;
 pos = (-129,28);
 ref = commaaccentcomb;
 }
@@ -17155,9 +17167,11 @@ layerId = "AD24F9D8-B4BC-4471-A886-867C4989B298";
 name = "10 Jan 22, 19:50";
 shapes = (
 {
+alignment = -1;
 ref = k;
 },
 {
+alignment = -1;
 pos = (-80,0);
 ref = commaaccentcomb;
 }
@@ -17400,9 +17414,11 @@ layerId = "49E602A9-BFB6-47D6-975D-48AC37E2E491";
 name = "10 Jan 22, 19:51";
 shapes = (
 {
+alignment = -1;
 ref = l;
 },
 {
+alignment = -1;
 pos = (-170,0);
 ref = commaaccentcomb;
 }
@@ -18282,9 +18298,11 @@ layerId = "453035BF-9166-4982-B968-06E73EDF31C7";
 name = "10 Jan 22, 19:53";
 shapes = (
 {
+alignment = -1;
 ref = n;
 },
 {
+alignment = -1;
 pos = (-58,0);
 ref = commaaccentcomb;
 }
@@ -20553,9 +20571,11 @@ layerId = "FBA3CF02-5449-4261-8076-BA2F14F84728";
 name = "10 Jan 22, 19:58";
 shapes = (
 {
+alignment = -1;
 ref = r;
 },
 {
+alignment = -1;
 pos = (-117,0);
 ref = commaaccentcomb;
 }
@@ -21226,9 +21246,11 @@ layerId = "3523FB5B-1A6C-40A4-B271-5176FFB938E1";
 name = "10 Jan 22, 20:00";
 shapes = (
 {
+alignment = -1;
 ref = s;
 },
 {
+alignment = -1;
 pos = (-91,0);
 ref = commaaccentcomb;
 }
@@ -21882,9 +21904,11 @@ layers = (
 layerId = "3DD6C797-E5ED-486C-89DE-75EDF9B2F8B8";
 shapes = (
 {
+alignment = -1;
 ref = t;
 },
 {
+alignment = -1;
 pos = (-150,0);
 ref = commaaccentcomb;
 }
@@ -21900,9 +21924,11 @@ layerId = "6D1C0675-F548-44BE-9101-93EEC47BD830";
 name = "10 Jan 22, 20:08";
 shapes = (
 {
+alignment = -1;
 ref = t;
 },
 {
+alignment = -1;
 pos = (-150,0);
 ref = commaaccentcomb;
 }
@@ -60638,5 +60664,5 @@ tH = "151";
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
