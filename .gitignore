@@ -1,1 +1,18 @@
+master_ufo
+instances_ufo
+
+*~
 venv
+build.stamp
+proof
+build
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
